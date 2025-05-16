@@ -1,0 +1,174 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #1A0F0A;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 800px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #CCCCCC;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    background: #8B0000;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.hero-button:hover {
+    background: #A00000;
+    transform: scale(1.05);
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background-color: #1A0F0A;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.feature-title {
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.feature-description {
+    color: #CCCCCC;
+    line-height: 1.6;
+}
+
+.flag-banner {
+    background-color: #1A0F0A;
+    border: 2px solid #8B0000;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.flag-banner.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+.flag-banner.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.flag-banner h2 {
+    color: #8B0000;
+    margin-bottom: 0.5rem;
+    font-family: 'Old Standard TT', serif;
+}
+
+.flag-text {
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #8B0000, 0 0 10px #8B0000, 0 0 15px #8B0000;
+    }
+    to {
+        box-shadow: 0 0 10px #8B0000, 0 0 20px #8B0000, 0 0 30px #8B0000;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.admin-flag-banner {
+    background-color: #1A0F0A;
+    border: 2px solid #8B0000;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.admin-flag-banner.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.admin-flag-banner h2 {
+    color: #8B0000;
+    margin-bottom: 0.5rem;
+    font-family: 'Old Standard TT', serif;
+}
+
+.admin-flag-banner .flag-text {
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #8B0000, 0 0 10px #8B0000, 0 0 15px #8B0000;
+    }
+    to {
+        box-shadow: 0 0 10px #8B0000, 0 0 20px #8B0000, 0 0 30px #8B0000;
+    }
+} 

@@ -1,0 +1,87 @@
+{
+  "common": {
+    "login": "Logi sisse",
+    "register": "Registreeru",
+    "logout": "Logi välja",
+    "email": "E-post",
+    "password": "Parool",
+    "username": "Kasutajanimi",
+    "submit": "Saada",
+    "error": "Viga",
+    "success": "Õnnestus",
+    "home": "Avaleht",
+    "language": "Keel",
+    "createPosting": "Loo Postitus",
+    "myPostings": "Minu Postitused",
+    "products": "Tooted",
+    "search": "Otsi",
+    "loading": "Laadimine...",
+    "backToHome": "Tagasi Avalehele"
+  },
+  "home": {
+    "title": "Tere tulemast leheküljele Forbidden Goods",
+    "subtitle": "Haruldaste ja ainulaadsete esemete jaoks. Sirvige meie haruldaste esemete kogumit.",
+    "joinButton": "Liitu Allmaailmaga",
+    "flagFound": "Lipp leitud!",
+    "features": {
+      "exclusive": {
+        "title": "Eksklusiivsed Esemed",
+        "description": "Avastage haruldasi ja ainulaadseid esemeid, mida te ei leia kuskilt mujalt."
+      },
+      "secure": {
+        "title": "Turvalised Tehingud",
+        "description": "Meie platvorm tagab kõigi osapoolte jaoks turvalised ja diskreetse tehingud."
+      },
+      "community": {
+        "title": "Kogukonna Juhitud",
+        "description": "Liitu kogujate ja entusiastide kogukonnaga, kes jagavad teie huvisid."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Logi sisse",
+      "noAccount": "Pole kontot? Registreeru siin",
+      "error": "Vale kasutajanimi või parool"
+    },
+    "register": {
+      "title": "Loo konto",
+      "hasAccount": "Kas sul on juba konto? Logi sisse siin",
+      "error": "Registreerimine ebaõnnestus. Palun proovige uuesti."
+    }
+  },
+  "safe": {
+    "title": "Seif",
+    "flagFound": "Lipp leitud!",
+    "enterCode": "Sisesta vastus",
+    "submit": "Saada",
+    "error": "Vale kood",
+    "encryptedMessage": "Krüpteeritud Sõnum",
+    "encryptionHint": "See sõnum on krüpteeritud. Proovi see õige võtmega lahti murda.",
+    "encryptedAuthor": "Krüpteeritud Autori Nimi",
+    "complexEncryptionHint": "See sõnum on krüpteeritud keerulisema meetodiga. Kas suudad välja selgitada, kes on autor?",
+    "findAuthor": "Leia Autor",
+    "enterAuthor": "Sisesta autori nimi",
+    "authorError": "Vale autori nimi",
+    "authorFlagFound": "Autori Lipp Leitud!",
+    "completionFlagFound": "Ülesanne lõpetatud!",
+    "skip": "Lõpeta ülesanne",
+    "skipStep": "Lõpeta ülesanne",
+    "success": {
+      "title": "Seif Avatud!",
+      "message": "Oled edukalt seifi avanud. Nüüd proovi leida krüpteeritud sõnumi autor.",
+      "searchAuthor": "Otsi Autorit",
+      "skip": "Lõpeta ülesanne"
+    }
+  },
+  "products": {
+    "title": "Tooted",
+    "flagFound": "Lipp leitud!",
+    "searchPlaceholder": "Otsi tooteid...",
+    "noProducts": "Ühtegi toodet ei leitud",
+    "sqlInjectionHint": "Proovi teistsugust otsingut"
+  },
+  "admin": {
+    "flagFound": "Administraatori Lipp Leitud!"
+  }
+} 

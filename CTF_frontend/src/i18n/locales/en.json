@@ -1,0 +1,87 @@
+{
+  "common": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "submit": "Submit",
+    "error": "Error",
+    "success": "Success",
+    "home": "Home",
+    "language": "Language",
+    "createPosting": "Create Posting",
+    "myPostings": "My Postings",
+    "products": "Products",
+    "search": "Search",
+    "loading": "Loading...",
+    "backToHome": "Back to Home"
+  },
+  "home": {
+    "title": "Welcome to Forbidden Goods",
+    "subtitle": "A marketplace for the daring and discreet. Browse our collection of rare and unique items.",
+    "joinButton": "Join the Underground",
+    "flagFound": "Flag Found!",
+    "features": {
+      "exclusive": {
+        "title": "Exclusive Items",
+        "description": "Discover rare and unique items that you won't find anywhere else."
+      },
+      "secure": {
+        "title": "Secure Transactions",
+        "description": "Our platform ensures safe and discreet transactions for all parties involved."
+      },
+      "community": {
+        "title": "Community Driven",
+        "description": "Join a community of collectors and enthusiasts who share your interests."
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "noAccount": "Don't have an account? Register here",
+      "error": "Invalid credentials"
+    },
+    "register": {
+      "title": "Create Account",
+      "hasAccount": "Already have an account? Login here",
+      "error": "Registration failed. Please try again."
+    }
+  },
+  "safe": {
+    "title": "Safe",
+    "flagFound": "Flag Found!",
+    "enterCode": "Enter the answer",
+    "submit": "Submit",
+    "error": "Invalid code",
+    "encryptedMessage": "Encrypted Message",
+    "encryptionHint": "This message is encrypted. Try to decrypt it with the right key.",
+    "encryptedAuthor": "Encrypted Author Name",
+    "complexEncryptionHint": "This message is encrypted with a more complex method. Can you figure out who the author is?",
+    "findAuthor": "Find the Author",
+    "enterAuthor": "Enter the author name",
+    "authorError": "Invalid author name",
+    "authorFlagFound": "Author Flag Found!",
+    "completionFlagFound": "Challenge Completed!",
+    "skip": "Complete the challenge",
+    "skipStep": "Complete the challenge",
+    "success": {
+      "title": "Safe Opened!",
+      "message": "You've successfully opened the safe. Now try to find the author of the encrypted message.",
+      "searchAuthor": "Search for Author",
+      "skip": "Complete the challenge"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "flagFound": "Flag Found!",
+    "searchPlaceholder": "Search for products...",
+    "noProducts": "No products found",
+    "sqlInjectionHint": "Try a different search query"
+  },
+  "admin": {
+    "flagFound": "Admin Flag Found!"
+  }
+} 

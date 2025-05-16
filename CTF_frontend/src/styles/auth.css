@@ -1,0 +1,123 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #1A0F0A;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-input {
+    background: #2C1810;
+    border: 2px solid #8B0000;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    font-family: 'Old Standard TT', serif;
+}
+
+.auth-input:focus {
+    outline: none;
+    border-color: #A00000;
+    box-shadow: 0 0 10px rgba(139, 0, 0, 0.3);
+}
+
+.auth-button {
+    background: #8B0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Old Standard TT', serif;
+}
+
+.auth-button:hover {
+    background: #A00000;
+    transform: scale(1.02);
+}
+
+.auth-title {
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.auth-error {
+    color: #FF4444;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.auth-link {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.auth-link:hover {
+    color: #A00000;
+}
+
+.auth-success {
+    color: #4CAF50;
+    background-color: #E8F5E9;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    border: 1px solid #4CAF50;
+}
+
+.flag-banner {
+    background-color: #1A0F0A;
+    border: 2px solid #8B0000;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.flag-banner h2 {
+    color: #8B0000;
+    margin-bottom: 0.5rem;
+    font-family: 'Old Standard TT', serif;
+}
+
+.flag-text {
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #8B0000, 0 0 10px #8B0000, 0 0 15px #8B0000;
+    }
+    to {
+        box-shadow: 0 0 10px #8B0000, 0 0 20px #8B0000, 0 0 30px #8B0000;
+    }
+} 
